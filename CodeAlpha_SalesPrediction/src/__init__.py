@@ -1,3 +1,0 @@
-"""
-Sales Prediction Package
-"""
