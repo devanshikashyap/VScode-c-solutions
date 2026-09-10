@@ -1,0 +1,30 @@
+=================================================================
+            SALES PREDICTION - EXPLORATORY DATA ANALYSIS REPORT    
+=================================================================
+
+1. Dataset Shape: 200 records x 8 columns
+
+2. Data Profile & Missing Values:
+    Column Name Data Type  Missing Count  Missing (%)
+             tv   float64              0          0.0
+          radio   float64              0          0.0
+      newspaper   float64              0          0.0
+          sales   float64              0          0.0
+    total_spend   float64              0          0.0
+       tv_share   float64              0          0.0
+    radio_share   float64              0          0.0
+newspaper_share   float64              0          0.0
+
+3. Numerical Descriptive Statistics:
+             count    mean    std   min     25%     50%     75%    max
+tv           200.0  147.04  85.85   0.7   74.38  149.75  218.82  296.4
+radio        200.0   23.26  14.85   0.0    9.98   22.90   36.52   49.6
+newspaper    200.0   30.55  21.78   0.3   12.75   25.75   45.10  114.0
+total_spend  200.0  200.86  92.99  11.7  123.55  207.35  281.12  433.6
+sales        200.0   14.02   5.22   1.6   10.38   12.90   17.40   27.0
+
+4. Channel Spend Summary (Totals & Averages):
+   - TV: Total Spend = $29,408.50k | Mean = $147.04k
+   - RADIO: Total Spend = $4,652.80k | Mean = $23.26k
+   - NEWSPAPER: Total Spend = $6,110.80k | Mean = $30.55k
+   - SALES: Total Units = 2,804.5k | Mean = 14.02k units
